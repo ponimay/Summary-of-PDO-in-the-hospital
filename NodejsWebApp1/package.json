@@ -1,0 +1,21 @@
+{
+  "name": "NodejsWebApp1",
+  "version": "0.0.1",
+  "description": "NodejsWebApp1",
+  "main": "server.js",
+  "author": {
+    "name": "n1katio"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.9.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0"
+  },
+  "eslintConfig": {}
+}

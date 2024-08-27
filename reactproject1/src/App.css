@@ -1,0 +1,75 @@
+/* Стили для футера */
+.footer {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: #f8f9fa;
+    text-align: center;
+    opacity: 0.8;
+}
+
+    .footer p {
+        margin: 0;
+    }
+
+
+
+.reports-footer {
+    color: #000000;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    text-align: center;
+    opacity: 0.8;
+}
+
+/* Остальные стили остаются без изменений */
+.home-container {
+    padding: 2rem;
+    text-align: center;
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.home-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.home-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #f8f9fa;
+}
+
+.home-link {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    background-color: #ffffff;
+    color: #007bff;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+    .home-link:hover {
+        background-color: #0056b3;
+        color: white;
+        transform: translateY(-3px);
+    }
+
+/* Добавляем анимацию для плавного появления */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

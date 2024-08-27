@@ -1,0 +1,1 @@
+D:\NodejsWebApp1\reactproject1\obj\Debug\client.esproj.CoreCompileInputs.cache
